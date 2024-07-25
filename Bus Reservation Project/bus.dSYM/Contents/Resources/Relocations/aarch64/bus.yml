@@ -1,0 +1,46 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/macbookpro/Desktop/prject/bus'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _clearScreen, symObjAddr: 0x0, symBinAddr: 0x100003450, symSize: 0x1C }
+  - { offsetInCU: 0x4D, offset: 0x4D, size: 0x8, addend: 0x0, symName: _SECURITY_QUESTION, symObjAddr: 0x4A0D, symBinAddr: 0x100007F41, symSize: 0x0 }
+  - { offsetInCU: 0x73, offset: 0x73, size: 0x8, addend: 0x0, symName: _SECURITY_ANSWER, symObjAddr: 0x4A2C, symBinAddr: 0x100007F60, symSize: 0x0 }
+  - { offsetInCU: 0x94, offset: 0x94, size: 0x8, addend: 0x0, symName: _user_count, symObjAddr: 0x91BC, symBinAddr: 0x10000C000, symSize: 0x0 }
+  - { offsetInCU: 0xB0, offset: 0xB0, size: 0x8, addend: 0x0, symName: _booking_count, symObjAddr: 0x91C0, symBinAddr: 0x10000C004, symSize: 0x0 }
+  - { offsetInCU: 0xC5, offset: 0xC5, size: 0x8, addend: 0x0, symName: _buses_per_route, symObjAddr: 0x91C4, symBinAddr: 0x10000C008, symSize: 0x0 }
+  - { offsetInCU: 0x10A, offset: 0x10A, size: 0x8, addend: 0x0, symName: _users, symBinAddr: 0x100010D04, symSize: 0x0 }
+  - { offsetInCU: 0x1B8, offset: 0x1B8, size: 0x8, addend: 0x0, symName: _bookings, symBinAddr: 0x10000C014, symSize: 0x0 }
+  - { offsetInCU: 0x23D, offset: 0x23D, size: 0x8, addend: 0x0, symName: _buses, symBinAddr: 0x1000107F4, symSize: 0x0 }
+  - { offsetInCU: 0x2A5, offset: 0x2A5, size: 0x8, addend: 0x0, symName: _clearScreen, symObjAddr: 0x0, symBinAddr: 0x100003450, symSize: 0x1C }
+  - { offsetInCU: 0x2BA, offset: 0x2BA, size: 0x8, addend: 0x0, symName: _load_users, symObjAddr: 0x1C, symBinAddr: 0x10000346C, symSize: 0x8C }
+  - { offsetInCU: 0x2DE, offset: 0x2DE, size: 0x8, addend: 0x0, symName: _save_users, symObjAddr: 0xA8, symBinAddr: 0x1000034F8, symSize: 0x74 }
+  - { offsetInCU: 0x302, offset: 0x302, size: 0x8, addend: 0x0, symName: _load_buses, symObjAddr: 0x11C, symBinAddr: 0x10000356C, symSize: 0x2F4 }
+  - { offsetInCU: 0x3B2, offset: 0x3B2, size: 0x8, addend: 0x0, symName: _save_buses, symObjAddr: 0x410, symBinAddr: 0x100003860, symSize: 0x50 }
+  - { offsetInCU: 0x3D6, offset: 0x3D6, size: 0x8, addend: 0x0, symName: _load_bookings, symObjAddr: 0x460, symBinAddr: 0x1000038B0, symSize: 0x8C }
+  - { offsetInCU: 0x3FA, offset: 0x3FA, size: 0x8, addend: 0x0, symName: _save_bookings, symObjAddr: 0x4EC, symBinAddr: 0x10000393C, symSize: 0x74 }
+  - { offsetInCU: 0x41E, offset: 0x41E, size: 0x8, addend: 0x0, symName: _find_user_by_username, symObjAddr: 0x560, symBinAddr: 0x1000039B0, symSize: 0xA0 }
+  - { offsetInCU: 0x462, offset: 0x462, size: 0x8, addend: 0x0, symName: _register_user, symObjAddr: 0x600, symBinAddr: 0x100003A50, symSize: 0x2A0 }
+  - { offsetInCU: 0x487, offset: 0x487, size: 0x8, addend: 0x0, symName: _login, symObjAddr: 0x8A0, symBinAddr: 0x100003CF0, symSize: 0x150 }
+  - { offsetInCU: 0x4CB, offset: 0x4CB, size: 0x8, addend: 0x0, symName: _user_menu, symObjAddr: 0x9F0, symBinAddr: 0x100003E40, symSize: 0x148 }
+  - { offsetInCU: 0x500, offset: 0x500, size: 0x8, addend: 0x0, symName: _sign_out, symObjAddr: 0xB50, symBinAddr: 0x100003FA0, symSize: 0x44 }
+  - { offsetInCU: 0x524, offset: 0x524, size: 0x8, addend: 0x0, symName: _reset_password, symObjAddr: 0xB94, symBinAddr: 0x100003FE4, symSize: 0x1B4 }
+  - { offsetInCU: 0x567, offset: 0x567, size: 0x8, addend: 0x0, symName: _view_profile, symObjAddr: 0xD48, symBinAddr: 0x100004198, symSize: 0xE0 }
+  - { offsetInCU: 0x59C, offset: 0x59C, size: 0x8, addend: 0x0, symName: _update_profile, symObjAddr: 0xE28, symBinAddr: 0x100004278, symSize: 0xC8 }
+  - { offsetInCU: 0x5D1, offset: 0x5D1, size: 0x8, addend: 0x0, symName: _make_reservation, symObjAddr: 0xEF0, symBinAddr: 0x100004340, symSize: 0x7F0 }
+  - { offsetInCU: 0x76E, offset: 0x76E, size: 0x8, addend: 0x0, symName: _log_booking, symObjAddr: 0x16F4, symBinAddr: 0x100004B44, symSize: 0x50 }
+  - { offsetInCU: 0x7A3, offset: 0x7A3, size: 0x8, addend: 0x0, symName: _cancel_booking, symObjAddr: 0x1744, symBinAddr: 0x100004B94, symSize: 0x480 }
+  - { offsetInCU: 0x895, offset: 0x895, size: 0x8, addend: 0x0, symName: _view_booking_details, symObjAddr: 0x1BC4, symBinAddr: 0x100005014, symSize: 0x1A0 }
+  - { offsetInCU: 0x8F5, offset: 0x8F5, size: 0x8, addend: 0x0, symName: _adminLogin, symObjAddr: 0x1D64, symBinAddr: 0x1000051B4, symSize: 0x218 }
+  - { offsetInCU: 0x95A, offset: 0x95A, size: 0x8, addend: 0x0, symName: _resetAdminPassword, symObjAddr: 0x1F7C, symBinAddr: 0x1000053CC, symSize: 0x15C }
+  - { offsetInCU: 0x990, offset: 0x990, size: 0x8, addend: 0x0, symName: _writePasswordToFile, symObjAddr: 0x20D8, symBinAddr: 0x100005528, symSize: 0x70 }
+  - { offsetInCU: 0x9C5, offset: 0x9C5, size: 0x8, addend: 0x0, symName: _readPasswordFromFile, symObjAddr: 0x2148, symBinAddr: 0x100005598, symSize: 0x74 }
+  - { offsetInCU: 0x9EB, offset: 0x9EB, size: 0x8, addend: 0x0, symName: _signoutAdmin, symObjAddr: 0x21BC, symBinAddr: 0x10000560C, symSize: 0x38 }
+  - { offsetInCU: 0xA01, offset: 0xA01, size: 0x8, addend: 0x0, symName: _add_bus_details, symObjAddr: 0x21F4, symBinAddr: 0x100005644, symSize: 0x250 }
+  - { offsetInCU: 0xA70, offset: 0xA70, size: 0x8, addend: 0x0, symName: _delete_bus_details, symObjAddr: 0x2444, symBinAddr: 0x100005894, symSize: 0x2F8 }
+  - { offsetInCU: 0xAFC, offset: 0xAFC, size: 0x8, addend: 0x0, symName: _update_bus_details, symObjAddr: 0x273C, symBinAddr: 0x100005B8C, symSize: 0x28C }
+  - { offsetInCU: 0xB6B, offset: 0xB6B, size: 0x8, addend: 0x0, symName: _update_seat_status, symObjAddr: 0x29C8, symBinAddr: 0x100005E18, symSize: 0x3D8 }
+  - { offsetInCU: 0xC15, offset: 0xC15, size: 0x8, addend: 0x0, symName: _set_bus_prices, symObjAddr: 0x2DA0, symBinAddr: 0x1000061F0, symSize: 0x294 }
+  - { offsetInCU: 0xC93, offset: 0xC93, size: 0x8, addend: 0x0, symName: _view_admin_log, symObjAddr: 0x3034, symBinAddr: 0x100006484, symSize: 0x16C }
+  - { offsetInCU: 0xCE5, offset: 0xCE5, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x31A0, symBinAddr: 0x1000065F0, symSize: 0x188 }
+  - { offsetInCU: 0xD0F, offset: 0xD0F, size: 0x8, addend: 0x0, symName: _adminMenu, symObjAddr: 0x3338, symBinAddr: 0x100006788, symSize: 0x128 }
+...

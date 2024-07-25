@@ -1,0 +1,1 @@
+void view_profile(int user_idx) {
